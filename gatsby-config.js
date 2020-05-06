@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'prist', // (REQUIRED, replace with your own)
+            repositoryName: 'lallilala-prismic-repo', // (REQUIRED, replace with your own)
             linkResolver: () => post => `/${post.uid}`,
         }
     },
@@ -34,7 +34,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-prismic-starter-prist`,
-        short_name: `prist`,
+        short_name: `lallilala-prismic-repo`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
